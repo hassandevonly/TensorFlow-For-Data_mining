@@ -1,1 +1,97 @@
-# TensorFlow-For-Data_mining
+# Prédiction du prix des voitures avec TensorFlow
+
+Ce projet a été réalisé dans le cadre du cours de **Data Mining** du Master IASD.  
+Il utilise des techniques de **machine learning supervisé** via **TensorFlow** pour prédire le prix de voitures à partir de caractéristiques disponibles dans un dataset.
+
+---
+## Objectifs pédagogiques
+
+- Comprendre le cycle de vie d’un projet de data mining (prétraitement, modélisation, évaluation)
+- Mettre en œuvre un modèle de **régression avec TensorFlow**
+- Comparer les performances via des métriques standards (MAE, MSE, R²)
+- Appliquer les bonnes pratiques de manipulation de données avec **Pandas / NumPy**
+
+---
+
+## Contenu du projet
+
+| Fichier | Description |
+|--------|-------------|
+| `Exercice_TensorFlow_Prix_Voiture.ipynb` | Notebook principal contenant le modèle de régression TensorFlow |
+| `dataset.csv` | Données des voitures provenant de CarDekho |
+| `HRDataset.ipynb` / `HRDataset_v14.csv` | Autre projet de data mining sur les données RH |
+| `Projet TensorFlow.pptx` | Présentation PowerPoint du projet |
+| `TensorFlow.pdf` | Support théorique sur TensorFlow |
+
+
+---
+
+## Modèle utilisé
+
+- **Type de problème** : Régression
+- **Framework** : TensorFlow + Keras (API haut-niveau)
+- **Architecture** : `Sequential` avec 2-3 couches denses (`Dense`)
+- **Fonction de perte** : Mean Squared Error (MSE)
+- **Optimiseur** : Adam
+- **Évaluation** : MAE, R² Score, courbes de pertes
+
+---
+
+## Visualisation des performances
+
+Le modèle est évalué graphiquement à travers :
+
+- Courbe d’évolution de la perte (`loss`)
+- Comparaison `y_test vs y_pred` en scatter plot
+- Affichage de la métrique R²
+- Heatmap de corrélation entre variables du dataset
+
+---
+
+## Exécution locale ou via Colab
+
+### 1. Sur Google Colab (recommandé)
+
+Ouvrir le fichier `Exercice_TensorFlow_Prix_Voiture.ipynb` via :  
+- https://colab.research.google.com/github/hassandevonly/TensorFlow-For-Data_mining/blob/main/Exercice_TensorFlow_Prix_Voiture.ipynb
+
+### 2. En local (Jupyter)
+
+```bash
+git clone https://github.com/hassandevonly/TensorFlow-For-Data_mining.git
+cd TensorFlow-For-Data_mining
+```
+---
+## Installer les dépendances (optionnel)
+```bash
+pip install -r requirements.txt
+```
+## Lancer le projet dans Jupyter Notebook
+- Ouvre `Exercice_TensorFlow_Prix_Voiture.ipynb` et `HRDataset.ipynb` dans Jupyter Notebook.
+---
+## Technologies utilisées
+- Python 3.x
+- Pandas / NumPy
+- TensorFlow / Keras
+- Scikit-learn
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+## Références
+- Dataset original : CarDekho
+- Documentation TensorFlow : https://www.tensorflow.org
+- Guide de l’API Keras : https://keras.io
+
+## Perspectives d’amélioration
+- Intégration d’un modèle avec TensorFlow Decision Forests
+- Sauvegarde du modèle (model.save() et load_model())
+- Interface simple avec Streamlit ou Gradio
+- Étude comparative avec des modèles de scikit-learn (RandomForest, XGBoost)
+
+# Réalisé par
+- **BANGOURA Mohamed El Hassan**
+- **GOZO Amé Ethiam Godwin**
+- **DIALLO Rabiatou**
+
+
+

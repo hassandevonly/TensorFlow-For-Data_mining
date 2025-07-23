@@ -1,8 +1,13 @@
-# Prédiction du prix des voitures avec TensorFlow
+# Utilisation de TensorFlow dans un projet de Data Mining
 
-Ce projet a été réalisé dans le cadre du cours de **Data Mining** du Master IASD.  
-Il utilise des techniques de **machine learning supervisé** via **TensorFlow** pour prédire le prix de voitures à partir de caractéristiques disponibles dans un dataset.
+Ce travail a été réalisé dans le cadre d’un exposé présenté en Master 1 IASD, dans l’unité d’enseignement **Data Mining**.  
+Il a pour objectif de démontrer comment exploiter la bibliothèque **TensorFlow** pour résoudre un problème d’apprentissage supervisé, en mettant en œuvre un modèle de régression sur un jeu de données réel.
 
+Le projet comprend :
+- Une mise en pratique de TensorFlow via un notebook Python (Jupyter)
+- Une analyse complète du processus de data mining (prétraitement, modélisation, évaluation)
+- Une présentation théorique des concepts clés de TensorFlow (à travers un PDF et un diaporama)
+- Une configuration technique reproductible, utilisable en local ou via Google Colab
 ---
 ## Objectifs pédagogiques
 

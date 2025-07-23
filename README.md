@@ -82,12 +82,13 @@ cd TensorFlow-For-Data_mining
 
 ## Configuration de l’environnement (Conda recommandé)
 
-Si vous utilisez Anaconda, vous pouvez créer un environnement compatible avec TensorFlow en important le fichier `environment_tf_env.yml`.
+Si vous utilisez Anaconda, vous pouvez créer un environnement compatible avec TensorFlow en ouvrant `Anaconda Prompt` et suivez ces etapes.
 
 ### Étapes :
 ```bash
 conda env create -f environment_tf_env.yml
 conda activate tf_env
+pip install notebook
 jupyter notebook
 ```
 

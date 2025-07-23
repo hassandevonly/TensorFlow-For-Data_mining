@@ -54,6 +54,19 @@ Le modèle est évalué graphiquement à travers :
 
 Ouvrir le fichier `Exercice_TensorFlow_Prix_Voiture.ipynb` via :  
 - https://colab.research.google.com/github/hassandevonly/TensorFlow-For-Data_mining/blob/main/Exercice_TensorFlow_Prix_Voiture.ipynb
+    
+    ## Chargement automatique des données
+    
+    Dans Google Colab ou tout environnement distant, utilisez le lien GitHub suivant pour charger directement le fichier CSV :
+    
+    ```python
+    url = "https://raw.githubusercontent.com/hassandevonly/TensorFlow-For-Data_mining/main/dataset.csv"
+    df = pd.read_csv(url)
+    ```
+    
+    Cela vous évite d’avoir à uploader manuellement le fichier `dataset.csv`.
+    
+    ---
 
 ### 2. En local (Jupyter)
 
@@ -90,9 +103,8 @@ pip install -r requirements.txt
 - Jupyter Notebook
 
 ## Références
-- Dataset original : CarDekho
-- Documentation TensorFlow : https://www.tensorflow.org
-- Guide de l’API Keras : https://keras.io
+- Documentation TensorFlow : [https://www.tensorflow.org](https://www.tensorflow.org/)
+- Guide de l’API Keras : [https://keras.io](https://keras.io/)
 
 ## Perspectives d’amélioration
 - Intégration d’un modèle avec TensorFlow Decision Forests

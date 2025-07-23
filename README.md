@@ -22,15 +22,16 @@ Le projet comprend :
 
 | Fichier | Description |
 |--------|-------------|
-| `Exercice_TensorFlow_Prix_Voiture.ipynb` | Notebook principal pour la régression TensorFlow sur les prix de voitures |
-| `dataset.csv` | Données d'entraînement issues de la plateforme CarDekho |
-| `HRDataset.ipynb` | Notebook d'analyse sur un dataset RH (exercice complémentaire) |
-| `HRDataset_v14.csv` | Données RH utilisées par `HRDataset.ipynb` |
+| [`Exercice_TensorFlow_Prix_Voiture.ipynb`](https://colab.research.google.com/github/hassandevonly/TensorFlow-For-Data_mining/blob/main/Exercice_TensorFlow_Prix_Voiture.ipynb) | Notebook principal pour la régression TensorFlow sur les prix de voitures (exécutable sur Colab) |
+| [`dataset.csv`](https://raw.githubusercontent.com/hassandevonly/TensorFlow-For-Data_mining/main/dataset.csv) | Données d'entraînement issues de la plateforme CarDekho |
+| [`HRDataset.ipynb`](https://colab.research.google.com/github/hassandevonly/TensorFlow-For-Data_mining/blob/main/HRDataset.ipynb) | Notebook d'analyse sur un dataset RH (exercice complémentaire, exécutable sur Colab) |
+| [`HRDataset_v14.csv`](https://raw.githubusercontent.com/hassandevonly/TensorFlow-For-Data_mining/main/HRDataset_v14.csv) | Données RH utilisées par `HRDataset.ipynb` |
 | `Projet TensorFlow.pptx` | Diaporama PowerPoint utilisé pour la présentation du projet |
 | `TensorFlow.pdf` | Support théorique du cours sur TensorFlow (PDF) |
 | `README.md` | Présentation détaillée du projet, instructions et contexte |
 | `requirements.txt` | Fichier listant les dépendances Python à installer avec `pip` |
 | `environment_tf_env.yml` | Environnement Conda prêt à l’emploi pour garantir la compatibilité |
+
 
 
 ---

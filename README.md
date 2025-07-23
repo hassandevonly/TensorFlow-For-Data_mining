@@ -78,6 +78,23 @@ Ouvrir le fichier `Exercice_TensorFlow_Prix_Voiture.ipynb` via :
     
     ---
 
+    ## Exécution du fichier `HRDataset.ipynb` sur Google Colab
+    
+    Ouvrir le fichier `HRDataset.ipynb` directement via Google Colab :  
+    https://colab.research.google.com/github/hassandevonly/TensorFlow-For-Data_mining/blob/main/HRDataset.ipynb
+    
+    ---
+
+    ## Chargement automatique du dataset RH
+    
+    Dans Google Colab ou tout environnement distant, utilisez le lien GitHub suivant pour charger directement le fichier `HRDataset_v14.csv` :
+    
+    ```python
+    url = "https://raw.githubusercontent.com/hassandevonly/TensorFlow-For-Data_mining/main/HRDataset_v14.csv"
+    df = pd.read_csv(url)
+    ```
+
+
 ### 2. En local (Jupyter)
 
 ```bash

@@ -62,7 +62,9 @@ Le modèle est évalué graphiquement à travers :
 
 ### 1. Sur Google Colab (recommandé)
 
-Ouvrir le fichier `Exercice_TensorFlow_Prix_Voiture.ipynb` via :  
+## Exécution du fichier `Exercice_TensorFlow_Prix_Voiture.ipynb` sur Google Colab :  
+
+Ouvrir le fichier `Exercice_TensorFlow_Prix_Voiture.ipynb` directement via Google Colab :
 - https://colab.research.google.com/github/hassandevonly/TensorFlow-For-Data_mining/blob/main/Exercice_TensorFlow_Prix_Voiture.ipynb
     
     ## Chargement automatique des données
@@ -78,22 +80,21 @@ Ouvrir le fichier `Exercice_TensorFlow_Prix_Voiture.ipynb` via :
     
     ---
 
-    ## Exécution du fichier `HRDataset.ipynb` sur Google Colab
-    
-    Ouvrir le fichier `HRDataset.ipynb` directement via Google Colab :  
-    https://colab.research.google.com/github/hassandevonly/TensorFlow-For-Data_mining/blob/main/HRDataset.ipynb
-    
-    ---
+## Exécution du fichier `HRDataset.ipynb` sur Google Colab
 
-    ## Chargement automatique du dataset RH
-    
+Ouvrir le fichier `HRDataset.ipynb` directement via Google Colab :  
+- https://colab.research.google.com/github/hassandevonly/TensorFlow-For-Data_mining/blob/main/HRDataset.ipynb
+  
+    ## Chargement automatique du dataset RH  
     Dans Google Colab ou tout environnement distant, utilisez le lien GitHub suivant pour charger directement le fichier `HRDataset_v14.csv` :
     
     ```python
     url = "https://raw.githubusercontent.com/hassandevonly/TensorFlow-For-Data_mining/main/HRDataset_v14.csv"
     df = pd.read_csv(url)
     ```
-
+    Cela vous évite d’avoir à uploader manuellement le fichier `HRDataset_v14.csv`.
+  
+  ---
 
 ### 2. En local (Jupyter)
 

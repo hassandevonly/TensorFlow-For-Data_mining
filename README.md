@@ -62,6 +62,18 @@ git clone https://github.com/hassandevonly/TensorFlow-For-Data_mining.git
 cd TensorFlow-For-Data_mining
 ```
 ---
+
+## Configuration de l’environnement (Conda recommandé)
+
+Si vous utilisez Anaconda, vous pouvez créer un environnement compatible avec TensorFlow en important le fichier `environment_tf_env.yml`.
+
+### Étapes :
+```bash
+conda env create -f environment_tf_env.yml
+conda activate tf_env
+jupyter notebook
+```
+
 ## Installer les dépendances (optionnel)
 ```bash
 pip install -r requirements.txt

@@ -17,11 +17,15 @@ Il utilise des techniques de **machine learning supervisé** via **TensorFlow** 
 
 | Fichier | Description |
 |--------|-------------|
-| `Exercice_TensorFlow_Prix_Voiture.ipynb` | Notebook principal contenant le modèle de régression TensorFlow |
-| `dataset.csv` | Données des voitures provenant de CarDekho |
-| `HRDataset.ipynb` / `HRDataset_v14.csv` | Autre projet de data mining sur les données RH |
-| `Projet TensorFlow.pptx` | Présentation PowerPoint du projet |
-| `TensorFlow.pdf` | Support théorique sur TensorFlow |
+| `Exercice_TensorFlow_Prix_Voiture.ipynb` | Notebook principal pour la régression TensorFlow sur les prix de voitures |
+| `dataset.csv` | Données d'entraînement issues de la plateforme CarDekho |
+| `HRDataset.ipynb` | Notebook d'analyse sur un dataset RH (exercice complémentaire) |
+| `HRDataset_v14.csv` | Données RH utilisées par `HRDataset.ipynb` |
+| `Projet TensorFlow.pptx` | Diaporama PowerPoint utilisé pour la présentation du projet |
+| `TensorFlow.pdf` | Support théorique du cours sur TensorFlow (PDF) |
+| `README.md` | Présentation détaillée du projet, instructions et contexte |
+| `requirements.txt` | Fichier listant les dépendances Python à installer avec `pip` |
+| `environment_tf_env.yml` | Environnement Conda prêt à l’emploi pour garantir la compatibilité |
 
 
 ---
